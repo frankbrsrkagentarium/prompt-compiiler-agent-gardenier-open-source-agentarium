@@ -1,1 +1,116 @@
 
+{
+  "agentarium_standard_version": "v1",
+  "manifest_version": "1.1.1",
+  "agent_id": "gardenier.prompt_compiler",
+  "agent_name": "Gardenier",
+  "tagline": "Prompt compiler that converts raw input into structured prompt specifications.",
+  "description": "Gardenier is a professional prompt compiler that converts unstructured user input into a Structured Prompt Object (SPO) for downstream execution by a Worker Agent/LLM. It performs intent analysis, extracts latent constraints, fabricates step-based directives, applies a tone policy, and validates semantic integrity before output.",
+  "category": "meta_agent",
+  "class": "prompt_compiler",
+  "tags": [
+    "agentarium",
+    "prompt_compiler",
+    "structured_prompts",
+    "intent_analysis",
+    "validation",
+    "tone_policy",
+    "rag_optional"
+  ],
+  "status": "draft",
+  "author": {
+    "name": "Frank Brsrk",
+    "handle": "frankbrsrk",
+    "contact": "https://huggingface.co/frankbrsrk"
+  },
+  "timestamps": {
+    "created_at": "2025-12-12",
+    "updated_at": "2025-12-12"
+  },
+  "languages": [
+    "en"
+  ],
+  "intended_llm": {
+    "generic_compatible": true,
+    "notes": "Works with any chat-capable LLM. Best results with models that follow strict formatting and constraints."
+  },
+  "recommended_params": {
+    "temperature": 0.4,
+    "top_p": 1.0,
+    "max_output_tokens": 1400
+  },
+  "capabilities": {
+    "uses_rag": true,
+    "uses_tools": false,
+    "has_memory": true,
+    "multi_modal": false,
+    "analysis_focused": true
+  },
+  "files": {
+    "manifest": "/meta/agent_manifest.json",
+    "system_prompt": "/core/system_prompt.md",
+    "reasoning_template": "/core/reasoning_template.md",
+    "personality_fingerprint": "/core/personality_fingerprint.md",
+    "guardrails": "/guardrails/guardrails.md",
+    "datasets": [
+      "/datasets/domain_type_catalog.csv",
+      "/datasets/mode_commands.csv",
+      "/datasets/latent_constraints_signals.csv",
+      "/datasets/prompt_template_catalog.csv",
+      "/datasets/tone_policy.csv",
+      "/datasets/validation_rules.csv",
+      "/datasets/output_format_patterns.csv",
+      "/datasets/assumption_policies.csv"
+    ],
+    "memory_schemas": [
+      "/memory_schemas/session_memory_schema.csv"
+    ],
+    "docs": [
+      "/docs/workflow_notes.md",
+      "/docs/product_readme.md",
+      "/docs/use_cases.md"
+    ]
+  },
+  "licensing": {
+    "license": "MIT",
+    "notes": "If you prefer a different license, update this field and include a LICENSE file in the repo."
+  },
+  "pricing": {
+    "type": "free",
+    "amount": 0,
+    "currency": "USD"
+  },
+  "compatibility": {
+    "orchestrators": [
+      "n8n",
+      "LangChain",
+      "custom"
+    ],
+    "vector_db": [
+      "Pinecone",
+      "Qdrant",
+      "Weaviate",
+      "Chroma",
+      "pgvector",
+      "any"
+    ],
+    "memory_store": [
+      "in_memory",
+      "sqlite",
+      "postgres",
+      "supabase",
+      "any"
+    ]
+  },
+  "changelog": [
+    {
+      "version": "1.1.1",
+      "date": "2025-12-12",
+      "changes": [
+        "Removed mythic terminology; standardized on Structured Prompt Object (SPO) and Latent Constraints.",
+        "Added implementation-focused workflow notes for LangChain and n8n.",
+        "Expanded dataset index to 8 schema-driven datasets (rows to be added separately)."
+      ]
+    }
+  ]
+}
