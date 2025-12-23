@@ -1,0 +1,101 @@
+signal_id,domain_type,signal_type,trigger_hint,recommended_action,severity
+LCS-001,engineering,format,User mentions “API”,“stack trace”,or “logs”,Add Inputs Required: repo/snippet/logs and environment details,medium
+LCS-002,engineering,constraint,User says “no breaking changes”,Add constraint: preserve public interfaces and behavior,high
+LCS-003,engineering,constraint,User says “performance issue”,Add directive: profile hypotheses + measurable targets,medium
+LCS-004,project_spec,preference,User says “one-pager”,Set Output Format to 1-page markdown with bullets,low
+LCS-005,decision_analysis,format,User asks “score options”,Add directive: define criteria + weighted scoring table,medium
+LCS-006,creative,constraint,User says “no clichés”,Add constraint: ban generic phrases; require concrete imagery,low
+LCS-007,marketing_copy,preference,User mentions “landing page”,Set Output Format to sections: hero,benefits,proof,CTA,low
+LCS-008,customer_support,risk,User mentions refund/chargeback,Add constraint: no policy invention; ask for policy link,high
+LCS-009,legal_comms,risk,User asks “is this legal”,Add constraint: not legal advice; suggest professional counsel,critical
+LCS-010,data_ops,constraint,User says “schema must not change”,Add directive: preserve headers; propose migration notes only,high
+LCS-011,engineering,assumption,User omits language/runtime version,Add Inputs Required: language + runtime version,medium
+LCS-012,engineering,format,User pastes error without context,Request minimal reproduction steps,medium
+LCS-013,engineering,constraint,User says “hotfix”,Add directive: minimal change; avoid refactors,high
+LCS-014,engineering,preference,User says “example-driven”,Add directive: include runnable examples/tests,low
+LCS-015,engineering,risk,User mentions “security vulnerability”,Add constraint: avoid exploit details; recommend responsible disclosure,critical
+LCS-016,project_spec,assumption,User omits success metrics,Add System Metrics: acceptance criteria + KPIs,low
+LCS-017,project_spec,constraint,User says “fixed deadline”,Add constraint: time-boxed scope; de-prioritize nice-to-haves,medium
+LCS-018,project_spec,preference,User says “exec summary”,Add Output Format: summary first,details after,low
+LCS-019,decision_analysis,assumption,User provides options but no baseline,Add directive: define status quo baseline,low
+LCS-020,decision_analysis,constraint,User says “risk-averse”,Add weighting: penalize downside variance,medium
+LCS-021,decision_analysis,preference,User asks “recommend”,Add directive: explicit recommendation + rationale,low
+LCS-022,creative,format,User says “storyboard”,Add Output Format: scenes with beats and visuals,low
+LCS-023,creative,preference,User says “brand-safe”,Add constraint: avoid shock/controversy; align brand voice,medium
+LCS-024,creative,constraint,User says “PG”,Add constraint: family-friendly language,low
+LCS-025,creative,risk,User asks to imitate living artist,Add constraint: style abstraction; no direct imitation,high
+LCS-026,marketing_copy,constraint,User says “SEO”,Add directive: keyword mapping + headings + meta description,medium
+LCS-027,marketing_copy,preference,User says “email campaign”,Add Output Format: subject lines + body variants + CTA,low
+LCS-028,marketing_copy,constraint,User says “compliance”,Add constraint: claims substantiated; avoid guarantees,high
+LCS-029,customer_support,format,User says “macro response”,Add Output Format: reusable template with variables,low
+LCS-030,customer_support,constraint,User says “angry customer”,Add directive: empathy-first; de-escalation steps,medium
+LCS-031,customer_support,risk,User mentions “legal threat”,Add constraint: avoid admissions; escalate to legal,critical
+LCS-032,legal_comms,format,User asks “draft notice”,Add Output Format: formal letter with placeholders,medium
+LCS-033,legal_comms,constraint,User says “jurisdiction X”,Add directive: jurisdiction-specific caveats,high
+LCS-034,legal_comms,assumption,User omits facts timeline,Request chronological facts before drafting,medium
+LCS-035,data_ops,format,User says “CSV import”,Add directive: validate delimiters + encoding + headers,low
+LCS-036,data_ops,constraint,User says “PII”,Add constraint: anonymize/redact sensitive fields,critical
+LCS-037,data_ops,assumption,User omits volume size,Request row count + file size,low
+LCS-038,data_ops,preference,User says “append only”,Add constraint: no deletes/updates; idempotent writes,medium
+LCS-039,engineering,preference,User says “step-by-step”,Add Output Format: numbered steps with checks,low
+LCS-040,engineering,constraint,User says “no new deps”,Add constraint: use existing dependencies only,high
+LCS-041,engineering,risk,User mentions “production outage”,Add directive: incident-style response; rollback first,critical
+LCS-042,project_spec,preference,User says “stakeholder review”,Add directive: assumptions list + open questions,low
+LCS-043,project_spec,constraint,User says “budget cap”,Add constraint: cost-aware alternatives,medium
+LCS-044,decision_analysis,risk,User mentions “regulatory”,Add constraint: compliance-first scoring,high
+LCS-045,creative,preference,User says “short-form”,Add Output Format: ≤150 words or 30s script,low
+LCS-046,marketing_copy,risk,User mentions “medical/financial”,Add constraint: disclaimers; avoid advice,critical
+LCS-047,customer_support,preference,User says “self-serve”,Add directive: link help articles + next steps,low
+LCS-048,data_ops,risk,User mentions “data loss”,Add directive: backups + recovery plan,critical
+LCS-049,engineering,assumption,User omits OS/cloud provider,Request environment details,low
+LCS-050,ALL,format,User says “keep it concise”,Add Tone Policy: compact bullets; no filler,low
+LCS-051,engineering,preference,User says “quick win”,Add directive: prioritize smallest change with visible impact,low
+LCS-052,engineering,constraint,User says “legacy code”,Add constraint: avoid large refactors; document risks,medium
+LCS-053,engineering,format,User asks “why is this failing”,Add directive: root-cause analysis before solution,medium
+LCS-054,engineering,assumption,User omits test coverage info,Request existing tests or coverage level,low
+LCS-055,engineering,risk,User mentions “race condition”,Add directive: concurrency analysis; reproduction steps,high
+LCS-056,project_spec,preference,User says “roadmap”,Add Output Format: phased timeline with milestones,low
+LCS-057,project_spec,constraint,User says “scope freeze”,Add constraint: no new features; backlog separately,high
+LCS-058,project_spec,assumption,User omits dependencies,Request internal/external dependency list,low
+LCS-059,project_spec,preference,User says “PRD”,Add Output Format: goals,non-goals,requirements,medium
+LCS-060,decision_analysis,preference,User asks “pros and cons”,Add directive: balanced comparison table,low
+LCS-061,decision_analysis,constraint,User says “time critical”,Add weighting: speed over optimality,medium
+LCS-062,decision_analysis,assumption,User omits decision owner,Add directive: clarify decision authority,low
+LCS-063,creative,preference,User says “visual first”,Add directive: imagery before copy,low
+LCS-064,creative,constraint,User says “dark tone”,Add constraint: somber palette; avoid humor,low
+LCS-065,creative,assumption,User omits target audience,Request audience persona,low
+LCS-066,marketing_copy,format,User says “ad copy”,Add Output Format: headline + body + CTA variants,low
+LCS-067,marketing_copy,constraint,User says “no hype”,Add constraint: factual language; measured claims,medium
+LCS-068,marketing_copy,assumption,User omits channel,Request distribution channel (web,email,ads),low
+LCS-069,customer_support,format,User says “knowledge base”,Add Output Format: FAQ-style entries,low
+LCS-070,customer_support,constraint,User says “first response SLA”,Add directive: concise acknowledgment + timeline,medium
+LCS-071,customer_support,assumption,User omits product version,Request product/version details,low
+LCS-072,legal_comms,preference,User says “plain English”,Add constraint: simplify legal jargon,low
+LCS-073,legal_comms,constraint,User says “formal only”,Add constraint: strict professional tone,medium
+LCS-074,legal_comms,risk,User mentions “court filing”,Add constraint: template only; no strategic advice,critical
+LCS-075,data_ops,preference,User says “ETL”,Add directive: extract-transform-load steps explicitly,low
+LCS-076,data_ops,constraint,User says “read-only source”,Add constraint: no writes to source systems,high
+LCS-077,data_ops,assumption,User omits refresh cadence,Request update frequency,low
+LCS-078,data_ops,risk,User mentions “GDPR”,Add constraint: data minimization + consent checks,critical
+LCS-079,engineering,preference,User says “diff-only”,Add Output Format: patch/diff view,low
+LCS-080,engineering,constraint,User says “backward compatible”,Add constraint: maintain previous behavior,high
+LCS-081,engineering,risk,User mentions “memory leak”,Add directive: profiling + leak isolation,high
+LCS-082,project_spec,preference,User says “vision doc”,Add Output Format: narrative vision + principles,low
+LCS-083,project_spec,constraint,User says “internal only”,Add constraint: avoid external assumptions,low
+LCS-084,project_spec,assumption,User omits stakeholders,Request stakeholder list,low
+LCS-085,decision_analysis,preference,User says “rank”,Add directive: ordered list with justification,low
+LCS-086,decision_analysis,constraint,User says “cost sensitive”,Add weighting: cost as primary factor,medium
+LCS-087,decision_analysis,risk,User mentions “reversibility”,Add directive: favor reversible decisions,low
+LCS-088,creative,format,User says “script”,Add Output Format: dialogue with timing,low
+LCS-089,creative,constraint,User says “minimalist”,Add constraint: reduce elements; whitespace focus,low
+LCS-090,creative,risk,User mentions “cultural sensitivity”,Add constraint: avoid stereotypes; neutral framing,high
+LCS-091,marketing_copy,preference,User says “A/B test”,Add directive: multiple variants with hypotheses,medium
+LCS-092,marketing_copy,constraint,User says “regulated industry”,Add constraint: compliant phrasing only,high
+LCS-093,marketing_copy,assumption,User omits value prop,Request primary value proposition,low
+LCS-094,customer_support,preference,User says “chatbot”,Add Output Format: short turn-based responses,low
+LCS-095,customer_support,constraint,User says “no escalation”,Add constraint: resolve within first response,medium
+LCS-096,customer_support,risk,User mentions “harassment”,Add constraint: safety-first; report pathways,critical
+LCS-097,data_ops,format,User says “dashboard”,Add Output Format: metrics + charts description,low
+LCS-098,data_ops,constraint,User says “near real-time”,Add directive: streaming/low-latency assumptions,medium
+LCS-099,data_ops,assumption,User omits data source owner,Request ownership/contact info,low
+LCS-100,ALL,preference,User says “default settings”,Add directive: use sensible defaults; document overrides,low

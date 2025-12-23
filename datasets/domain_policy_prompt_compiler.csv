@@ -1,0 +1,91 @@
+domain_type,description,required_sections,default_template_id,risk_baseline
+project_spec,Structured project/product specification for stakeholders,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_PROJECT_SPEC_V1,low
+engineering,Code review/refactor/debug specification prompt,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_ENGINEERING_V1,medium
+creative,Constrained creative generation prompt spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_CREATIVE_V1,low
+persona,System prompt/persona compiler specification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_PERSONA_V1,low
+decision_analysis,Trade-off framing and decision scoring spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DECISION_V1,medium
+customer_support,Customer support response spec with policy constraints,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_SUPPORT_V1,medium
+research_summary,Research synthesis spec with citations requirement,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_RESEARCH_SUMMARY_V1,medium
+data_ops,Dataset transformation/validation spec (non-execution),Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DATA_OPS_V1,medium
+marketing_copy,Marketing copy + positioning spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_MARKETING_COPY_V1,low
+legal_comms,Non-legal-advice drafting spec with disclaimers,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_LEGAL_COMMS_V1,high
+ux_writing,User interface and UX microcopy specification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_UX_WRITING_V1,low
+product_strategy,Product roadmap and prioritization framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_PRODUCT_STRATEGY_V1,medium
+technical_architecture,System architecture explanation and trade-offs,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_TECH_ARCH_V1,medium
+ai_alignment,AI behavior alignment and safety framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_AI_ALIGNMENT_V1,high
+evaluation_metrics,Model or system evaluation criteria definition,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_EVAL_METRICS_V1,medium
+prompt_compilation,Prompt assembly and normalization specification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_PROMPT_COMPILER_V1,low
+knowledge_mapping,Ontology or knowledge-map construction spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_KNOWLEDGE_MAP_V1,medium
+memory_design,Memory schema definition and read/write rules,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_MEMORY_DESIGN_V1,medium
+agent_orchestration,Multi-agent coordination and role definition spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_AGENT_ORCH_V1,medium
+simulation_design,Scenario and environment simulation framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_SIMULATION_V1,low
+training_data_spec,Training or fine-tuning dataset specification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_TRAINING_DATA_V1,high
+risk_assessment,Risk identification and mitigation framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_RISK_ASSESS_V1,high
+compliance_mapping,Regulatory or policy compliance mapping spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_COMPLIANCE_MAP_V1,high
+incident_response,Failure or incident response documentation spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_INCIDENT_RESPONSE_V1,high
+ethics_review,Ethical impact analysis and considerations,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_ETHICS_REVIEW_V1,high
+content_moderation,Moderation decision explanation and justification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_CONTENT_MOD_V1,high
+user_research,User research synthesis and insights framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_USER_RESEARCH_V1,medium
+business_model,Business model definition and assumptions,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_BUSINESS_MODEL_V1,medium
+financial_analysis,Financial forecasting and scenario framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_FINANCIAL_ANALYSIS_V1,high
+go_to_market,Go-to-market strategy and execution plan,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_GTM_V1,medium
+sales_enablement,Sales scripts and objection handling spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_SALES_ENABLE_V1,medium
+support_playbook,Customer support workflow and escalation rules,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_SUPPORT_PLAYBOOK_V1,medium
+documentation,Technical or user documentation spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DOCUMENTATION_V1,low
+education_content,Educational or tutorial content framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_EDUCATION_V1,low
+community_guidelines,Community rules and enforcement framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_COMMUNITY_GUIDE_V1,medium
+internal_policy,Internal policy drafting and interpretation,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_INTERNAL_POLICY_V1,high
+change_management,Change impact analysis and rollout planning,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_CHANGE_MGMT_V1,medium
+release_notes,Release notes and changelog generation,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_RELEASE_NOTES_V1,low
+experiment_design,A/B testing or experiment design spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_EXPERIMENT_V1,medium
+performance_review,Performance review and feedback framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_PERFORMANCE_REVIEW_V1,medium
+security_review,Security threat modeling and review spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_SECURITY_REVIEW_V1,high
+incident_postmortem,Post-incident analysis and lessons learned,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_POSTMORTEM_V1,high
+innovation_brief,Exploratory innovation or concept brief,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_INNOVATION_BRIEF_V1,low
+content_localization,Localization and cultural adaptation spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_LOCALIZATION_V1,medium
+workflow_design,Workflow and pipeline design specification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_WORKFLOW_DESIGN_V1,medium
+automation_rules,Automation rule definition and triggers spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_AUTOMATION_RULES_V1,medium
+integration_spec,API or service integration specification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_INTEGRATION_SPEC_V1,medium
+tool_registry,Tool capability and invocation definition,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_TOOL_REGISTRY_V1,medium
+agent_manifest,Agent manifest and metadata definition,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_AGENT_MANIFEST_V1,low
+deployment_plan,Deployment and rollout planning spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DEPLOYMENT_PLAN_V1,medium
+environment_config,Runtime environment configuration spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_ENV_CONFIG_V1,medium
+observability_setup,Logging,tracing,and monitoring setup spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_OBSERVABILITY_V1,medium
+cost_optimization,Cost analysis and optimization framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_COST_OPTIMIZATION_V1,medium
+capacity_planning,Scalability and capacity planning spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_CAPACITY_PLAN_V1,medium
+failure_modes,Failure mode identification and mitigation spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_FAILURE_MODES_V1,high
+fallback_strategies,Fallback and degradation behavior spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_FALLBACK_STRATEGY_V1,high
+guardrail_design,Guardrail definition and enforcement spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_GUARDRAIL_DESIGN_V1,high
+safety_audit,System safety audit and review framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_SAFETY_AUDIT_V1,high
+threat_modeling,Threat modeling and adversarial analysis,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_THREAT_MODEL_V1,high
+red_teaming,Red-team testing scenario specification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_RED_TEAM_V1,high
+evaluation_protocol,Formal evaluation protocol definition,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_EVAL_PROTOCOL_V1,medium
+benchmark_design,Benchmark creation and scoring spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_BENCHMARK_V1,medium
+experiment_analysis,Experiment result analysis and interpretation,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_EXPERIMENT_ANALYSIS_V1,medium
+ablation_study,Ablation study design and reporting,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_ABLATION_STUDY_V1,medium
+model_comparison,Model comparison and selection framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_MODEL_COMPARE_V1,medium
+model_card,Model card documentation specification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_MODEL_CARD_V1,medium
+dataset_card,Dataset card and provenance documentation,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DATASET_CARD_V1,medium
+data_provenance,Data lineage and provenance tracking spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DATA_PROVENANCE_V1,high
+data_quality,Data quality assessment and scoring spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DATA_QUALITY_V1,medium
+data_governance,Data governance and access control framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DATA_GOVERNANCE_V1,high
+annotation_guidelines,Data annotation rules and examples spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_ANNOTATION_GUIDE_V1,medium
+label_taxonomy,Label taxonomy and class hierarchy spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_LABEL_TAXONOMY_V1,medium
+sampling_strategy,Sampling and balancing strategy spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_SAMPLING_STRATEGY_V1,medium
+synthetic_data,Synthetic data generation constraints and spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_SYNTHETIC_DATA_V1,high
+augmentation_policy,Data augmentation rules and limits,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_AUGMENTATION_POLICY_V1,medium
+privacy_preservation,Privacy preservation and anonymization spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_PRIVACY_PRESERVE_V1,high
+consent_management,Consent definition and enforcement framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_CONSENT_MGMT_V1,high
+access_control,Role-based access control specification,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_ACCESS_CONTROL_V1,high
+audit_logging,Audit log definition and retention spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_AUDIT_LOGGING_V1,high
+usage_analytics,Usage analytics and telemetry framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_USAGE_ANALYTICS_V1,medium
+feedback_loop,User/system feedback loop design spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_FEEDBACK_LOOP_V1,medium
+continuous_improvement,Continuous improvement and iteration spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_CONTINUOUS_IMPROVE_V1,medium
+roadmap_review,Roadmap review and adjustment framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_ROADMAP_REVIEW_V1,medium
+governance_review,Governance review and escalation spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_GOVERNANCE_REVIEW_V1,high
+stakeholder_alignment,Stakeholder alignment and communication framing,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_STAKEHOLDER_ALIGN_V1,medium
+decision_log,Decision logging and rationale capture spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DECISION_LOG_V1,low
+assumption_tracking,Assumption declaration and tracking spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_ASSUMPTION_TRACK_V1,low
+constraint_registry,Constraint registry and enforcement spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_CONSTRAINT_REGISTRY_V1,medium
+dependency_mapping,Dependency identification and mapping spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_DEPENDENCY_MAP_V1,medium
+sunset_policy,Feature or system deprecation policy spec,Goal|Inputs Required|Directives|Constraints|Output Format|Tone Policy|System Metrics,TPL_SUNSET_POLICY_V1,medium
