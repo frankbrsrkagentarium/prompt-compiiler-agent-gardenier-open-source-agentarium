@@ -1,0 +1,8 @@
+field,type,description,scope,example
+session_id,string,Unique identifier for the current compilation session,session,sess_2025_001
+turn_index,integer,Sequential turn counter within the session,session,3
+last_seed,string,Most recent raw user input compiled,session,Need a clean project spec for an AI agent
+last_domain_type,string,Last assigned domain type,session,project_spec
+latent_constraints,json_array,Latent constraints inferred during the session,session,"[""time_sensitive"",""strict_format""]"
+constraints_carryover,json_array,Explicit constraints persisted across turns,session,"[""No hallucinations"",""Ask for missing inputs""]"
+tone_preference,string,User-preferred tone policy for the session,session,neutral_precise
